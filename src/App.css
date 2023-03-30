@@ -1,0 +1,114 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}*/
+.nav img{
+  height: 30px;
+  margin-right: 7px;
+}
+.nav{
+  color: #C9CACD;
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.blueHeader{
+  color: #61DAFB;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22px;
+}
+.nav h4{
+  display: inline-flex;
+  color: #DEEBF8;
+  text-align: right;
+  float: right;
+  margin-right: 20px;
+  font-weight: 600;
+}
+body{
+  background-color: #282D35;
+  margin: 0;  
+  font-family: Inter, sans-serif;
+}
+header{
+  background-color: #21222A;
+  border: 1px solid #0C8CE9;
+}
+.content{
+  color: #FFFFFF;
+  padding: 57px 27px;
+  background-image: url(./react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 100%;
+
+}
+.content h1{
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.content-list{
+  color: #f2f2f2;
+  margin-top: 46px;
+  max-width: 400px;
+}
+/*
+.content-list li::before{
+  content: "\2022";   Add content: \2022 is the CSS Code/unicode for a bullet 
+  color: #61DAFB; /* Change the color 
+  font-weight: bold; /* If you want it to be bold 
+  display: inline-block; /* Needed to add space between the bullet and the text *
+  width: 1em; /* Also needed for space (tweak if needed) *
+  margin-left: -1em; /* Also needed for space (tweak if needed) *
+  line-height: 19px;
+  padding-block: 10px;
+}
+*/
+.content-list li::marker{
+  font-size: 1.4em;
+  color: #61DAFB;
+}
